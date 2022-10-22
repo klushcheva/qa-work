@@ -25,6 +25,12 @@
 </details>
 
 <details>
+<summary>[LVLS-2976] iOS - При смене ориентации экрана съезжает таймфреймы в bottom sheet</summary>
+<br>
+~~~
+</details>
+
+<details>
 <summary>[LVLS-2614] Backend - Триалки - В маркет передается неверная дата списания средств</summary>
 <br>
 ~~~
