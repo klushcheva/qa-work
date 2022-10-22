@@ -1,62 +1,62 @@
 ## Баг-репорты
 
 <details>
-<summary>1. [CHART-3019] Android - Таймер свечи в первой сессии не синхронизирован с серверным временем</summary>
+<summary>[CHART-3019] Android - Таймер свечи в первой сессии не синхронизирован с серверным временем</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>2. [LVLS-2609] iOS - Торговые стратегии - Не работает warning при переключении на механику, не соответствующую механике активной стратегии</summary>
+<summary>[LVLS-2762] Android - Безрисковые сделки - Количество доступных сделок у юзера не синхронизировано</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>3. [CHART-3019] Android - График - Таймер свечи в первой сессии не синхронизирован с серверным временем</summary>
+<summary>[MWAY-267] Android - Некорректный ресайз графика после перехода зонный-свечи</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>4. [LVLS-2614] Backend - Триалки - В маркет передается неверная дата списания средств</summary>
-<br>
-~~~
-</details>
-
-<details>
-<summary>5. [LVLS-2762] Android - Безрисковые сделки - Количество доступных сделок у юзера не синхронизировано</summary>
-<br>
-~~~
-</details>
-
-<details>
-<summary>6. [LVLS-2797] Web - Маркет - Нет кнопки депозита если у пользователя недостаточно средств и выбран демо счет</summary>
+<summary>[LVLS-2609] iOS - Торговые стратегии - Не работает warning при переключении на механику, не соответствующую механике активной стратегии</summary>
 <br>
 ~~~
 </details>
 
 
 <details>
-<summary>7. [LVLS-2933] Backend - Маркет - Десинхронизация рейтинга некоторых фич</summary>
+<summary>[LVLS-2614] Backend - Триалки - В маркет передается неверная дата списания средств</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>8. [LVLS-2942] Backend - Торговые сигналы - Не приходит 137 событие после покупки сигналов</summary>
+<summary>[LVLS-2797] Web - Маркет - Нет кнопки депозита если у пользователя недостаточно средств и выбран демо счет</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>9. [LVLS-2965] Web - Торговые стратегии - Стратегии не всегда обновляются</summary>
+<summary>[LVLS-2965] Web - Торговые стратегии - Стратегии не всегда обновляются</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>10. [LVLS-2974] Backend - Trader's Way - Рассинхрон state и config в TW </summary>
+<summary>[LVLS-2933] Backend - Маркет - Десинхронизация рейтинга некоторых фич</summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2942] Backend - Торговые сигналы - Не приходит 137 событие после покупки сигналов</summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2974] Backend - Trader's Way - Рассинхрон state и config в TW </summary>
 <br>
 ~~~
 </details>
