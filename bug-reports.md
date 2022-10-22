@@ -7,13 +7,13 @@
 </details>
 
 <details>
-<summary>2. [LVLS-2609] [iOS] Не работает warning при переключении на механику, не соответствующую механике активной стратегии</summary>
+<summary>2. [LVLS-2609] iOS - Торговые стратегии - Не работает warning при переключении на механику, не соответствующую механике активной стратегии</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>3. [CHART-3019] Android - Таймер свечи в первой сессии не синхронизирован с серверным временем</summary>
+<summary>3. [CHART-3019] Android - График - Таймер свечи в первой сессии не синхронизирован с серверным временем</summary>
 <br>
 ~~~
 </details>
@@ -25,7 +25,7 @@
 </details>
 
 <details>
-<summary>5. [LVLS-2762] Android - Количество доступных сделок у юзера не синхронизировано</summary>
+<summary>5. [LVLS-2762] Android - Безрисковые сделки - Количество доступных сделок у юзера не синхронизировано</summary>
 <br>
 ~~~
 </details>
@@ -36,26 +36,27 @@
 ~~~
 </details>
 
+
 <details>
-<summary>7. [LVLS-2797] Web - Маркет - Нет кнопки депозита если у пользователя недостаточно средств и выбран демо счет</summary>
+<summary>7. [LVLS-2933] Backend - Маркет - Десинхронизация рейтинга некоторых фич</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>8. [LVLS-2933] Backend - Десинхронизация рейтинга некоторых фич</summary>
+<summary>8. [LVLS-2942] Backend - Торговые сигналы - Не приходит 137 событие после покупки сигналов</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>9. [LVLS-2942] Backend - Торговые сигналы - Не приходит 137 событие после покупки сигналов</summary>
+<summary>9. [LVLS-2965] Web - Торговые стратегии - Стратегии не всегда обновляются</summary>
 <br>
 ~~~
 </details>
 
 <details>
-<summary>10. [LVLS-2965] [Web] Стратегии не всегда обновляются</summary>
+<summary>10. [LVLS-2974] Backend - Trader's Way - Рассинхрон state и config в TW </summary>
 <br>
 ~~~
 </details>
@@ -63,7 +64,7 @@
 
 ## Задачи
 <details>
-<summary>1. [AQA-4657] [Web] - Адаптировать тесты в маркете</summary>
+<summary>1. [AQA-4657] Web - Адаптировать тесты в маркете</summary>
 <br>
 ~~~
 </details>
@@ -75,7 +76,7 @@
 </details>
 
 <details>
-<summary>3. [LVLS-2579] Web - Сигналы - Проверять, принял ли конкретный пользователь соглашение </summary>
+<summary>3. [LVLS-2579] Web - Торговые cигналы - Проверять, принял ли конкретный пользователь соглашение </summary>
 <br>
 ~~~
 </details>
