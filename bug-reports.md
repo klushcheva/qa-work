@@ -66,6 +66,11 @@
 ~~~
 </details>
 
+<details>
+<summary>[TD-2122] Web - Профиль - Иконка профиля выглядит не по дизайну</summary>
+<br>
+~~~
+</details>
 
 ## Задачи
 <details>
