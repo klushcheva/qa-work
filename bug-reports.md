@@ -19,18 +19,6 @@
 </details>
 
 <details>
-<summary>[LVLS-2609] iOS - Торговые стратегии - Не работает предупреждение при переключении на механику, не соответствующую механике активной стратегии</summary>
-<br>
-~~~
-</details>
-
-<details>
-<summary>[LVLS-2976] iOS - Торговые сигналы - При смене ориентации экрана съезжают таймфреймы в bottom sheet</summary>
-<br>
-~~~
-</details>
-
-<details>
 <summary>[LVLS-2614] Backend - Триалки - В маркет передается неверная дата списания средств</summary>
 <br>
 ~~~
@@ -50,6 +38,18 @@
 
 <details>
 <summary>[LVLS-2974] Backend - Trader's Way - Рассинхрон state и config в TW </summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2609] iOS - Торговые стратегии - Не работает предупреждение при переключении на механику, не соответствующую механике активной стратегии</summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2976] iOS - Торговые сигналы - При смене ориентации экрана съезжают таймфреймы в bottom sheet</summary>
 <br>
 ~~~
 </details>
