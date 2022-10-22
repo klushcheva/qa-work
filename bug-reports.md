@@ -24,21 +24,8 @@
 ~~~
 </details>
 
-
 <details>
 <summary>[LVLS-2614] Backend - Триалки - В маркет передается неверная дата списания средств</summary>
-<br>
-~~~
-</details>
-
-<details>
-<summary>[LVLS-2797] Web - Маркет - Нет кнопки депозита если у пользователя недостаточно средств и выбран демо счет</summary>
-<br>
-~~~
-</details>
-
-<details>
-<summary>[LVLS-2965] Web - Торговые стратегии - Стратегии не всегда обновляются</summary>
 <br>
 ~~~
 </details>
@@ -57,6 +44,18 @@
 
 <details>
 <summary>[LVLS-2974] Backend - Trader's Way - Рассинхрон state и config в TW </summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2797] Web - Маркет - Нет кнопки депозита если у пользователя недостаточно средств и выбран демо счет</summary>
+<br>
+~~~
+</details>
+
+<details>
+<summary>[LVLS-2965] Web - Торговые стратегии - Стратегии не всегда обновляются</summary>
 <br>
 ~~~
 </details>
