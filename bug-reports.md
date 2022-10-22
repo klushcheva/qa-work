@@ -60,13 +60,6 @@
 ~~~
 </details>
 
-<details>
-<summary>10. [LVLS-2965] [Web] Стратегии не всегда обновляются</summary>
-<br>
-~~~
-</details>
-
-
 
 ## Задачи
 <details>
