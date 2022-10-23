@@ -304,17 +304,66 @@
 <details>
 <summary>[AQA-4657] Web - Адаптировать тесты в маркете</summary>
 <br>
-~~~
+
+**Project**: Auto QA | **Components**: Web
+  
+**Type**: Task | **Priority**: Medium
+  
+**Assignee**: […] | **Reporter**: Kseniia Lushcheva
+  
+**Resolution**: Done
+
+**Description**:
+  
+> В задаче LVLS-2620 поменялся UI маркета. Теперь главная страница маркета - список категорий фичей.
+>Добавляем дополнительные шаги в тесты с помощью новых локаторов в задаче LVLS-2663
+>1. com.olymptrade.qa.platform.tests.deeplink.LevelsDeeplinkTest.checkDeeplinkMarketplace и com.olymptrade.qa.platform.tests.menu.SidebarMenuTest.checkSidebarNavigation - нужно проверять, что открылся маркет (cor-w-panel-marketPlaceCategories)
+>2. 4 теста в com.olymptrade.qa.platform.tests.market.DeeplinksMarketTest, 5 тестов в com.olymptrade.qa.platform.tests.market.MarketAndStatusesTest, 6 тестов в com.olymptrade.qa.platform.tests.market.ViewPurchasedFeatureTest, 5 тестов в com.olymptrade.qa.platform.tests.market.MarketAndStatusesTest (без downgradeStatusToStarter и downgradeStatusToAdvanced):
+>нужно 1) открывать маркет (cor-w-panel-marketPlaceCategories) 2) открывать инвентарь (mp-inventory-button)
+>в downgradeStatusToStarter и downgradeStatusToAdvanced нужно заходить в маркет, выбирать категорию, и покупать фичу
+>3. 3 теста в com.olymptrade.qa.platform.tests.market.MultiAccountMarketTest, 12 тестов в com.olymptrade.qa.platform.tests.market.BuyFeatureMarketTest, 18 тестов в com.olymptrade.qa.platform.tests.market.ViewFeatureMarketTest:
+>нужно 1) открывать маркет (cor-w-panel-marketPlaceCategories) 2) открывать нужную категорию (mp-category-card) 3) в категории выбирать нужную фичу
+>4. com.olymptrade.qa.platform.tests.menu.SidebarMenuTest.checkSidebarNavigation - нужно в шаге "проверка открытия маркета" поменять локатор на cor-w-panel-marketPlaceCategories
 </details>
 
 <details>
 <summary>[LVLS-2080] iOS - Обрабатывать рестрикшен на покупки в маркетплейс на клиенте</summary>
 <br>
-~~~
+
+**Project**: LVLS | **Components**: iOS
+  
+**Type**: Task | **Priority**: Medium
+  
+**Assignee**: […] | **Reporter**: Kseniia Lushcheva
+  
+**Resolution**: Done
+
+**Description**:
+
+>В задаче LVLS-2040 добавлен рестрикшен на покупку фичей в маркете, при выставленном рестрикшене marketplace_purchase на попытку покупки приходит ошибка:
+>  {type: "Error", code: "purchase_restricted", msg: "purchase_restricted", internal_code: "zdcCtZl0UI"}
+> Нужно обрабатывать эту ошибку на клиенте:
+>- Анимация покупки не должна проигрываться
+>- Сверху экрана должно появляться сообщение об ошибке
+
 </details>
 
 <details>
 <summary>[LVLS-2579] Web - Торговые cигналы - Проверять, принял ли конкретный пользователь соглашение </summary>
 <br>
-~~~
+
+**Project**: LVLS | **Components**: Web
+  
+**Type**: Task | **Priority**: Medium
+  
+**Assignee**: […] | **Reporter**: Kseniia Lushcheva
+  
+**Resolution**: Done
+
+**Description**:
+  
+> В local storage в ключе tradingSignals хранится информация о том, принимал ли какой-либо пользователь в браузере пользовательское соглашение (user agreement) о использовании торговых сигналов, формат:
+>  {"userAgreement":{"v":true,"ea":null}}
+>
+>Давайте проверять, принял ли конкретный пользователь соглашение, т.к. одним браузером могут пользоваться несколько людей, а легальную информацию об использовании сигналов стоит показывать каждому пользователю.
 </details>
