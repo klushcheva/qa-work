@@ -53,7 +53,7 @@
 |Товар по подписке/единоразовая покупка|:ballot_box_with_check:|
 |События аналитики web для некоторых категорий|:ballot_box_with_check:|
 |Новые диплинки для товара|:ballot_box_with_check:|
-|**iOS + Android|
+|**iOS + Android**|
 |Категория товара: существующая/новая|:ballot_box_with_check:|
 |Позиция товара в категории|:ballot_box_with_check:|
 |Реальный товар/пустышка|:ballot_box_with_check:|
