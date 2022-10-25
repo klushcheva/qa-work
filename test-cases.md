@@ -6,10 +6,10 @@
 
 
 ## Backend
-
+Здесь находятся несколько кейсов для внешнего api маркета, одной из центральных фичей нашей команды.
 
 
 ## Android
+Здесь находятся примеры кейсов Android для фичи "In-app уведомления"
 
-
-## iOS  
+[Android cases](https://github.com/klushcheva/qa-work/blob/3bd8119eb37e7d1af3b728248518a4b5a7133746/tables/android%20-%20in-app.xlsx)
