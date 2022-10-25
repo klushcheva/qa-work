@@ -4,10 +4,12 @@
 
 Ниже представлены тест-кейсы на эту фичу.
 
+[Web cases](https://github.com/klushcheva/qa-work/blob/be407700e52415e8f019fbb21acf4bf2af69d8b0/tables/web%20-%20trading%20signals.xlsx)
 
 ## Backend
 Здесь находятся несколько кейсов для внешнего api маркета, одной из центральных фичей нашей команды.
 
+[Backend cases](https://github.com/klushcheva/qa-work/blob/be407700e52415e8f019fbb21acf4bf2af69d8b0/tables/back%20-%20marketplace.xlsx)
 
 ## Android
 Здесь находятся примеры кейсов Android для фичи "In-app уведомления"
