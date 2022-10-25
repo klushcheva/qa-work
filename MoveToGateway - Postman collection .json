@@ -1,0 +1,2026 @@
+{
+	"info": {
+		"_postman_id": "6561f054-d8ce-45a1-92e5-b1ccff5ae48d",
+		"name": "Gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19855831"
+	},
+	"item": [
+		{
+			"name": "/deals-limits/all/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000387844145261542655201678368521650622836685549760640603914068; enterdate=2022-04-22+13%3A20%3A36; _gcl_au=1.1.2039622119.1650622837; _scid=23f57923-1b14-4592-bdde-249058dc8a4b; _sctr=1|1650574800000; lang=en_US; checked=1; _gid=GA1.2.499597445.1650882983; bo-session=1000726395419460899778701678368521650885952045819201685492004590; _ga=GA1.2.1166236546.1650622838; session=1551935515833594035570508495802128760964566204046185702399671667; _ga_SN8XZNJ2M7=GS1.1.1650887356.4.1.1650887602.43; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTA4OTYxNTYsIm5iZiI6MTY1MDg5NjE1NiwiZXhwIjoxNjUwOTgyNTU2LCJ1c2VyX2lkIjoyMzI5MDcsImVtYWlsIjoiay5sdXNoY2hldmErMkBzcGFjZTMwNy5jb20iLCIyZmF1IjowfQ.fJpaQadWuoQlO9aku8whgqbz_aAsCNcKCPopB3ZbC-MkfMEYlcA6wDBCpjUFq1ldmotN1C_eXaNMV2ohitrMEH3HNk3A8U2_PUx9DCZbG63B_pHIufTsm0KdHDI-QODo7BlbJ-JiHTHFH9BYoCLveAptCyOUEZknW8bF4UaxJHH6Yr2GdrWeCLKKm-QRbfaW3fnF4kaASrDhOqSPW1oK5iK761y3RebqhDhlNfkBBNOEs41k1miOFe14se74e74HxqC7ZnzzVn8B-NDzN8xbsoTTW1jLz3eUPzkQcjXaMNEgUX5Ci7KcceVZnQtYuM0-aJo7XtuaE6rClcc33rXiV1r8Arxq8lIafuVW-qlpXT6nCDTx8Fz8ntGpCFo4nqq-_aP74Yw3uquJBDRFseEZnnWmTgP6_vsxnK8HYxbiNYa_QDIIijMvhPC6HvCWVhbICWrfHbI8rngfjnmhlJu1TDG6fvGBs6QnJpqocw3PYFnb0y8X2WaraUXUpOWbpPmvjJRLEt5EtSDpwo4J6Tqih-DkJzdBGaPnTBFcyeiy713JmehfDRCWu0TsB7LvKOgDw30WUiYwnMv3lCgmSAobIPbzko3pzi0rW9fQZ_9I0Sc6McGj8cz3UgXch43e4QTc7F1NEgDEGyH1BynRs1WvN9DEYPJF6faLUR4SBLmNVGg"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "bo",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/deals-limits/all/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"deals-limits",
+						"all",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/experience/config/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000078062261309085328418506013951644497605397622190122526793762; props[chatCol]=true; _gcl_au=1.1.1072819861.1644498185; _scid=9c702296-686e-4c56-baee-77ce4f6bd383; _fbp=fb.1.1644843792216.691505402; checked=1; enterdate=2022-04-09+11%3A34%3A51; _sctr=1|1649797200000; lang=en_US; _ga=GA1.2.b6375626117345.1644497606065; session=1729149128802616525179425323447551707388230210410733613372241404; _ga_SN8XZNJ2M7=GS1.1.1650017066.77.0.1650017074.52; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTAyNjcxOTQsIm5iZiI6MTY1MDI2NzE5NCwiZXhwIjoxNjUwMzUzNTk0LCJ1c2VyX2lkIjoxMDkxNjksImVtYWlsIjoiay5sdXNoY2hldmErMjIyQHNwYWNlMzA3LmNvbSIsIjJmYXUiOjB9.HEKx74IEQ43NTqt_aEOUCwTgpMd5gkBkCEFaXtBIZci-gKZ8Fl7ZycixnFrphatOBtNklmHq7KJnKnDowfabisxpYBWuXY4ktrs7G-YG7zgY2LsufIdpxJh-o93M_Nn2BDGO0Z3kUWdBYPwOi3zGG1vLdNm91P12qRZIdrETtb5MXQIQ93K4CtzMjTma9crGcLDsvnFwGOuAaYjJUgT-BtyTJ0zuYohRuVFdw7PjiwHJ5f68luSFZI754FE6IKtzcfZxO-p2pc48DTXCHnzmPUFHGB40l4ctneVLrPWoU003rIPgOiFSr6OUHL5sEpQ8dXBzIxE9sVyIhF6Z1Rc1ztxH9IsmuKTBbYQAl7lRVRebTauU46bW-9tD8Z5w10Cin1JMZ1YCBZTz0uvbaWuyDw1bYfzrMeKhQ4QSzSzYKDXAsjmAMQWTFaYDOmPvkKT-bqRwQ200NBbN7wZGao5AHk8PPHscxPdlGGzgmfZkAUvLINbHEQmr7XMqTe4ePYrZ8K0HdEZmWt8E4T1YDKPjmAh9LnDXqNbWOqNFfvycBvXSR6ksRaI9kSqAEzjKorCaLjNOGqrk32ZM6CkgZ4yIZ9ySwtv3HpTZ35-eYSLHL-5EmJa8M5rOIsa4OBt83Q1un-36oDHlURhH_XIB7ARH1ZIshN2_J8YiWohuNbJq65g"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels1.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels1.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11716@11716"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels1.devbox307.tech/api/experience/config/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels1",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"experience",
+						"config",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/experience/education/video/watch/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1560094146465369625353737576949937163093812223876501794786582688"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels1.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels1.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11716@11716"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "bo",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/experience/education/video/watch/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"experience",
+						"education",
+						"video",
+						"watch",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/experience/state/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000078062261309085328418506013951644497605397622190122526793762; props[chatCol]=true; _gcl_au=1.1.1072819861.1644498185; _scid=9c702296-686e-4c56-baee-77ce4f6bd383; _fbp=fb.1.1644843792216.691505402; checked=1; enterdate=2022-04-09+11%3A34%3A51; _sctr=1|1649797200000; lang=en_US; _ga=GA1.2.b6375626117345.1644497606065; session=1729149128802616525179425323447551707388230210410733613372241404; _ga_SN8XZNJ2M7=GS1.1.1650017066.77.0.1650017074.52; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTAyNjcxOTMsIm5iZiI6MTY1MDI2NzE5MywiZXhwIjoxNjUwMzUzNTkzLCJ1c2VyX2lkIjoxMDkxNjksImVtYWlsIjoiay5sdXNoY2hldmErMjIyQHNwYWNlMzA3LmNvbSIsIjJmYXUiOjB9.wGmQNyQN_ei5NN29FQCRcMVhCORiiNNqFuMTFUg9A4P7kKGYbEJE5Wl3X_jExWwt9SxMsyo3Rp_B8EAWJ2IwuN-4XPZUSvluqJ6VoKOWnn3LdKIG2Rdq0-98oKMUUPC8IQ7ps2Byw9OnECre7zaFcuGeYlI9DmCQkibMvsVLuMsMHlFW5nbQYdyJqwAYNh_Ba4EcnbAadILC9QYHtJX-HO4DEaRH4vrq9Mf6_cGNLEkmRf8GmNUREoXQgH6C_lNA4wOkModIbwXmXIF2rkeLZumkbWIFWWj1w0dTk6_9b1fHXSnTXnYmCxL4B1UAnhTe1rE4NJNkaHlv_7IQ_eyIa6eZTqnmnjKH6BabbIThZpBvysH5J7MB2OWCQQVFa-wwgxQpBGXJ0PvMhwIlBwIuP_utul9-el9pdORhTq2LP4NzQDPGH45fytxV2NipnzUIx_9ZEBUCD-x0J3m4s7tvYkkgUTsKvtQiHrK51kXJD_JJ5fnaDfPpm10hysj_H8UPlFMopvWxaND1UvGZMMvai4X2pgaCm0imV3eAnuWC-LUs3EA1T6PSwJpZsW3KquSjbPF4JOFlfurpPnyGyYENQy6x6FqWwyT5Z6eHH0QtmfrWewj7n0hoB_uk2reWq2d_i05r6Ym0ClqcGHkLqe-qDRdu0wwup4DpjiRI-x7T5zs"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels1.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels1.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11716@11716"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels1.devbox307.tech/api/experience/state/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels1",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"experience",
+						"state",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/experience/status/save/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1560094146465369625353737576949937163093812223876501794786582688"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"account_id\":401713}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/experience/status/save/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"experience",
+						"status",
+						"save",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/categories/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/categories/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"categories",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/category/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"category_id\":5}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/category/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"category",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/features/buy/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000842324895789534009930759516331661166164191800733545110694378; enterdate=2022-08-22+14%3A02%3A44; _gcl_au=1.1.393231493.1661166166; _scid=a1de9868-1cdb-43e5-a0ec-940fd250640d; _fbp=fb.1.1661758709063.878534575; _ga=GA1.2.319183735.1661166166; _sctr=1|1661806800000; session=1680837286433302038553927220381246367300174173221118184179314264; _ga_SN8XZNJ2M7=GS1.1.1661863661.4.1.1661863674.47.0.0; checked=1; lang=tr_TR; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NjE5NTE2MjEsIm5iZiI6MTY2MTk1MTYyMSwiZXhwIjoxNjYyMDM4MDIxLCJ1c2VyX2lkIjoxMTM5MywiZW1haWwiOiJrLmx1c2hjaGV2YSszMjMyM0BzcGFjZTMwNy5jb20iLCIyZmF1IjowfQ.S7PqrgxScJvGky-poVWWq-fP_qQmaQL1chbQkHomvfGhSNYTjsa-PEH_p70Mr3s2IObE6bN2EOo9aY6YuVTXFJnmIH70TjahfaWUIgE_-iXeecaJdVs_QvUpguvz3kKBQUx-rkWPz0QK80U-PcD_sx2i_H8iglNKGFUwUEHvt-44fMwCm8L_66YV_Thqq9hf0hddatH2-4IVqwhETJO49BG3GL-k60N81c1cxLbDuLboBX1i0lny4FFIR9wlg-HPdj4_Tbml2gb2Oy7Pnk-tuJS1QQ3E68Izng-oW5ZSBRIDnY9S99leFxfDTI6Uws7UeXj8B-F9Ilp7BMVJJu1sorcjvvb2jzC2YZEz1C4j_lrS2If4OVbVhDazloiQJX7CSCq0Bc1_lwG4mOeMVyZkSMPsdwm-qyBGYBJkhNZrWLpzIRSk_64XumnzA25J3lBAtjDbHk0BdDoY6UvBRTA_hpHL1C4BNU-JGZEFJiqKY5ybb9SEWdZ3JXjr48jm7QNWBRBRZgFafDZ7VKh6xO7eOMvCW23cVz5sMvX5Iq-f9PqOb_Hhcnw3KmeG5ZKCcRgGzPdHGvOFpRdlhZkZr5pC85sU43vaEKVzLF8Qhf03tNJzWwBaNO87Cytlc6HLWYpBzJ7SOatM8M8fxo0W-X5cBYFu_2xwEDXPRFGd-Sk6FqA"
+					},
+					{
+						"key": "DNT",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "bo",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					},
+					{
+						"key": "x-test-ip",
+						"value": "121.156.109.108",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996",
+						"type": "text"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":995,\"payment_type\":\"monthly\",\"account_id\":31887,\"resubscribe\":true,\"trial\":true}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/features/buy/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"features",
+						"buy",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/features/cancel-next-payment/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000842324895789534009930759516331661166164191800733545110694378; enterdate=2022-08-22+14%3A02%3A44; _gcl_au=1.1.393231493.1661166166; _scid=a1de9868-1cdb-43e5-a0ec-940fd250640d; _fbp=fb.1.1661758709063.878534575; _ga=GA1.2.319183735.1661166166; _sctr=1|1661806800000; session=1680837286433302038553927220381246367300174173221118184179314264; _ga_SN8XZNJ2M7=GS1.1.1661863661.4.1.1661863674.47.0.0; checked=1; lang=en_US; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NjE5NTIzMzIsIm5iZiI6MTY2MTk1MjMzMiwiZXhwIjoxNjYyMDM4NzMyLCJ1c2VyX2lkIjoxMTM5MywiZW1haWwiOiJrLmx1c2hjaGV2YSszMjMyM0BzcGFjZTMwNy5jb20iLCIyZmF1IjowfQ.BmsnxlsnTPwllEB-WVHDnpA9gyPNq4VVuK7ImOk7fMkhDZQgw1H7qBouC7bT6F9Alfoh0ZC5YcL2vG6H_Zoc5WJXNlIyxwXmSHfLgoQWHa-AZZiPLUatwaW6rq0pV7VvGVbEj7EWwD5EvLU7-wGXQp1JV_ZxXqQ9EsIIFjYlxNwXVavJ-J1Jch5VdP_4tYezMdx_n5JHzq4YUGKXWznhl3-ZrkVXhshm1cNNixtpTnYUsQ47XY3Z0yfJssv7I9EXddnzHWbjkrzszyfOjcga-f570RSTzrAqXILXmW4v3GaS3JSCwdNal8u58Eim08M8ILVSWXvKVyYcw1ql-mSQUpLGEHHvldldoNjTgIIOIT4UCLvEmaxD-P56dhTXXWltXvO3_L6n8h4nbmFN-a2hXsvpjoroc8zkNWKpvH8Nfutvg3epTdZawWQwy58gt7p3nXsUvsEXqjJdWr57CCHuUbXf0NypVA9sn-BfWMzylol2dVvUw11aEbEXi-a47B7pC744F_njHPVGq87a8JhxQGJM_fxe_4DIc95sK9yFLhltL88bTaKkwf_S5epHL3-4N4r8p1ztH7FyjKZ5Xg0ffR06yM4aWGfYmYjvVQsZ6cdfzIX806vQD_FwvLvwLadtRrtIM1Gf912C8GyaaIKJKTx61HAZETO0wiy7g77qZaw"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "bo",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "x-test-ip",
+						"value": "121.156.109.108"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996",
+						"type": "text"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":995}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/features/cancel-next-payment/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"features",
+						"cancel-next-payment",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/features/details/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":5}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/features/details/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"features",
+						"details",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/features/rate/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels2.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels2.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "otp",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\", \"Google Chrome\";v=\"102\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					},
+					{
+						"key": "x-test-ip",
+						"value": "183.87.76.17",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996",
+						"type": "text"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"feature_id\":415,\"rating\":4}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/features/rate/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"features",
+						"rate",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/features/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/features/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"features",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/sale/v3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "otp",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "desktop@OlympTrade@2022.1.10926@10926"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"disabled": true
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1481155834046733011190335685378546199189170935620577381302833830"
+					},
+					{
+						"key": "x-test-ip",
+						"value": "110.77.239.179",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sale_id\":35}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/sale/v3",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"sale",
+						"v3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/sales/v3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+						"disabled": true
+					},
+					{
+						"key": "X-App-Version",
+						"value": "11996"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7",
+						"disabled": true
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request",
+						"disabled": true
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/sales/v3",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"sales",
+						"v3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/marketplace/updates/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1680837286433302038553927220381246367300174173221118184179314264"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels3.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels3.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "bo",
+						"disabled": true
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "x-test-ip",
+						"value": "183.87.76.17"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11996@11996",
+						"type": "text"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":405}"
+				},
+				"url": {
+					"raw": "https://gw-levels.devbox307.tech/api/marketplace/updates/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"marketplace",
+						"updates",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/strategy-presets/list/v1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "guest_id=1000078062261309085328418506013951644497605397622190122526793762; props[chatCol]=true; _gcl_au=1.1.1072819861.1644498185; _scid=9c702296-686e-4c56-baee-77ce4f6bd383; _fbp=fb.1.1644843792216.691505402; checked=1; enterdate=2022-04-09+11%3A34%3A51; _gid=GA1.2.1018985006.1649667044; _sctr=1|1649797200000; lang=en_US; _ga=GA1.2.b6375626117345.1644497606065; session=1729149128802616525179425323447551707388230210410733613372241404; _ga_SN8XZNJ2M7=GS1.1.1650017066.77.0.1650017074.52; bo-session=1000874366834252632822601678368520165001802484331240031192178886; jwt_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTAwMjIzOTEsIm5iZiI6MTY1MDAyMjM5MSwiZXhwIjoxNjUwMTA4NzkxLCJ1c2VyX2lkIjoxMDkxNjksImVtYWlsIjoiay5sdXNoY2hldmErMjIyQHNwYWNlMzA3LmNvbSIsIjJmYXUiOjB9.IiR-19-8hGC8k-vk-hdPHC_5_Z8RyNTegp8AzjrC2iXV88Nq30mi0yMRF1l1AUaUfnShkV_cu6O-E9PVApQUzRfsGiKU-TrBXV-5MtUsh2umwbMF0E48SpHFzLlHKe2JFac0oKbVAu6wjhIZ5UMj5lk_Z4ul0kBiRfD7tDfVgMqD1GaIqdD3Dgm-li1m71A_BnjfcnZIDAFdPy1B4rVFwBeowMwCxvczwcBkX9j0rwvWwhTssBCJlrwv0CLyS0aiUTFOGjV0H-imdefhUiJM-DzIEbP0cJ82NymkZsWTOXMcMHiXhsmGzuiFq_jkr-bhkEUjHRSsqPYb3kt8ZXamNHvhNnXl6Hctp1cKLQIP8bfv2jAjRDNv9IXPGPCy9oI0Fza0uFqj5TxMAWBSpQfZ8OQOXs9_aKfrYFyTxNdzuiKRmrxj2_qcnAk0Qem3OLsS2zfKIiqEjQIO7I3XwCimuLzMBSAC3DLXxBDnAZ0hZbSQ9BC0jHOoBTQ02P4um4-GBNducQmUsHdJ8Fz9UR0r33Hw3-uRhbFTKDW7otsx2LOu9nztvvcnOB6NhHv0-MsmMrhnI6fB-v-L6N89FMq89djDo7tbu0kYJHEIxu_wAKFoYjUZc0Pplc1L4t-Fk9AFA8-no3VWvh1U9A2ZljkIhxgtQXGl6-TXV-OIWcnRVl0"
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels1.devbox307.tech"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels1.devbox307.tech/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "web@OlympTrade@2022.2.11716@11716"
+					},
+					{
+						"key": "X-CID-Device",
+						"value": "@@desktop"
+					},
+					{
+						"key": "X-CID-OS",
+						"value": "mac_os@10.15.7"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "otp",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels1.devbox307.tech/api/strategy-presets/list/v1",
+					"protocol": "https",
+					"host": [
+						"gw-levels1",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"strategy-presets",
+						"list",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/themes/list/all/v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "X-Request-Type",
+						"value": "Api-Request"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "X-Request-Project",
+						"value": "otp",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "Origin",
+						"value": "https://levels.devbox307.tech"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Referer",
+						"value": "https://levels.devbox307.tech/"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "Cookie",
+						"value": "session=1550551293727160382672327220381246928307924260069345692844486769"
+					},
+					{
+						"key": "x-test-ip",
+						"value": "110.77.239.179"
+					},
+					{
+						"key": "X-CID-App",
+						"value": "app_android@OlympTrade@7.8.3@1492",
+						"type": "text"
+					},
+					{
+						"key": "X-CID-Ver",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://gw-levels2.devbox307.tech/api/themes/list/all/v2",
+					"protocol": "https",
+					"host": [
+						"gw-levels2",
+						"devbox307",
+						"tech"
+					],
+					"path": [
+						"api",
+						"themes",
+						"list",
+						"all",
+						"v2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
